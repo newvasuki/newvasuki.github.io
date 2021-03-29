@@ -742,46 +742,20 @@ div.wrap {position: relative; width:100%; min-width:320px; margin:0 auto;}
 			max-width: 100%;
 		}
 
-		@media(min-width:576px) {
-			.maininfo{
-				display: flex;
-				flex-direction: column;
-			}
-			
 
-		}
-		@media(min-width:768px) {
-			.maininfo{
-				display: flex;
-				flex-direction: column;
-			}
-		}
-		@media(min-width:992px) {
-			.maininfo{
-				display: flex;
-				flex-direction: column;
-			}
-
-			
-		}
-		@media(min-width:1200px) {
-			.maininfo{
-				display: flex;
-				flex-direction: column;
-			}
-
-			
-		}
 		.maininfo {
 			display: block;
 		}
 
-	}
 
-	.left1 {
-		display: block;
-	}
 
-	.left2 {
-		display: block;
-	}
+		.left1 {
+			display: block;
+		}
+
+		.left2 {
+			display: block;
+		}
+		.wrapper {
+			width: 100%;
+		}
