@@ -759,3 +759,12 @@ div.wrap {position: relative; width:100%; min-width:320px; margin:0 auto;}
 		.wrapper {
 			width: 100%;
 		}
+
+		.wrap111 {
+			display: grid;
+			grid-template-columns: repeat(24, 1fr);
+		}
+		.menu {
+			grid-column-start: 16;
+
+		}
