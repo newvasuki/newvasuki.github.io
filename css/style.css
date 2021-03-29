@@ -773,9 +773,7 @@ div.wrap {position: relative; width:100%; min-width:320px; margin:0 auto;}
 			
 		}
 		.maininfo {
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
+			display: block;
 		}
 
 	}
