@@ -721,7 +721,7 @@ div.wrap {position: relative; width:100%; min-width:320px; margin:0 auto;}
 			width: 100%;
 		}
 
-		.maininfo {
+		/*.maininfo {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
@@ -736,7 +736,7 @@ div.wrap {position: relative; width:100%; min-width:320px; margin:0 auto;}
 			
 		}
 		
-
+		*/
 
 		div.wrap {
 			max-width: 100%;
