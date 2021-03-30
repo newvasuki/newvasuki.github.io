@@ -762,9 +762,25 @@ div.wrap {position: relative; width:100%; min-width:320px; margin:0 auto;}
 
 		.wrap111 {
 			display: grid;
-			grid-template-columns: repeat(24, 1fr);
+			width: auto;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+			
+			grid-template-rows: auto;
+
+
+
+			/*display: grid;
+			grid-template-columns: repeat(24, 1fr);*/
 		}
 		.menu {
-			grid-column-start: 16;
+			/*grid-column-start: 16;*/
+			grid-column-start: span 1;
+			grid-column-end:span  1;
+			align-self: center;
+
+
 
 		}
